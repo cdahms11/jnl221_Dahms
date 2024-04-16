@@ -31,6 +31,7 @@ h4 {
 h3 {
 	font-size: 30px;
 	text-shadow: 2px 2px 4px #000;
+	font-family: "Platypi", serif;
 }
 
 img {
@@ -50,12 +51,20 @@ h2 {
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
+	p{
+		font-size: 50px;
+		background-color: darkturquoise;
+	}
+img {
+	float: none;
+}
  .list {
  	float: none;
  	min-width: 90%;
  	margin-left: 10px;
  	margin-bottom: 30px;
  	margin-top: 30px;
+ 	border: 2px darkgray solid;
  }
  iframe {
  	min-width: 90%;
