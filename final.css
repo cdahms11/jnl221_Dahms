@@ -13,6 +13,10 @@ p {
 	font-family: 'Times New Roman', serif;
 }
 
+iframe {
+	min-width: 50% !important;
+}
+
 .header {
 	height: auto;
 	font-weight: bold;
@@ -34,10 +38,11 @@ h3 {
 	font-family: "Platypi", serif;
 }
 
-img {
+.img {
     float: right;
     margin-right: 5%;
     margin-left: 5%;
+    width: 20%;
 }
 h2 {
     text-shadow: 2px 2px 4px #000;
@@ -52,11 +57,12 @@ h2 {
 @media only screen and (max-width: 767px)
 {
 	p{
-		font-size: 50px;
-		background-color: darkturquoise;
+/*		font-size: 50px;*/
+/*		background-color: darkturquoise;*/
 	}
-img {
+.img {
 	float: none;
+	width: 70%;
 }
  .list {
  	float: none;
@@ -67,7 +73,7 @@ img {
  	border: 2px darkgray solid;
  }
  iframe {
- 	min-width: 90%;
+ 	min-width: 90% !important;
  	margin-right: 10px;
  }
 }
